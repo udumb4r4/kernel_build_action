@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/udumb4r4/Xiaomi_Kernel_OpenSource/tree/exfat
+          kernel-url: https://github.com/udumb4r4/Xiaomi_Kernel_OpenSource.git
           kernel-dir: Xiaomi_Kernel_OpenSource
           kernel-branch: exfat
           config: viva_defconfig
