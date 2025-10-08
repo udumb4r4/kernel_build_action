@@ -17,14 +17,11 @@ jobs:
         with:
           kernel-url: https://github.com/udumb4r4/Xiaomi_Kernel_OpenSource.git
           kernel-dir: Xiaomi_Kernel_OpenSource
-          kernel-branch: exfat
+          kernel-branch: ksu
           config: viva_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
-          ksu-url: https://github.com/rsuntk/KernelSU/
-          ksu-version: v1.0.5-25-legacy
           android-version: 11
           aosp-clang-version: r383902
           ccache: true
