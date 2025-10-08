@@ -21,6 +21,7 @@ jobs:
           submodules: recursive
           config: viva_defconfig
           arch: arm64
+          ksu-url: https://github.com/rsuntk/KernelSU/
           aosp-gcc: true
           aosp-clang: true
           android-version: 11
