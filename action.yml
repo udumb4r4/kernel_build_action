@@ -380,7 +380,7 @@ runs:
                     fi
                     curl -sSLf "${{ inputs.ksu-url }}/raw/${{ inputs.ksu-version }}/kernel/setup.sh" -o ksu_setup.sh || error "Failed to download KernelSU setup script"
                 else
-                    curl -sSLf "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" -o ksu_setup.sh || error "Failed to download KernelSU setup script"
+                    curl -sSLf "https://raw.githubusercontent.com/JackA1ltman/KernelSU/refs/heads/master/kernel/setup.sh" -o ksu_setup.sh || error "Failed to download KernelSU setup script"
                 fi
 
                 # Determine the KernelSU version to use
