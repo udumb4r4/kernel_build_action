@@ -1,5 +1,5 @@
 # A simple action usage
-name: Build Kernel
+name: Build 4.14
 on:
   workflow_dispatch:
 
@@ -15,16 +15,16 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/udumb4r4/Xiaomi_Kernel_OpenSource/tree/exfat
+          kernel-dir: Xiaomi_Kernel_OpenSource
+          kernel-branch: exfat
+          config: viva_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
+          ksu: false
           ksu-version: main
-          android-version: 12
+          android-version: 11
           aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
