@@ -18,6 +18,7 @@ jobs:
           kernel-url: https://github.com/udumb4r4/Xiaomi_Kernel_OpenSource.git
           kernel-dir: Xiaomi_Kernel_OpenSource
           kernel-branch: ksu
+          submodules: recursive
           config: viva_defconfig
           arch: arm64
           aosp-gcc: true
