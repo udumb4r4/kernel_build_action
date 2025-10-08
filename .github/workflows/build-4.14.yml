@@ -20,8 +20,10 @@ jobs:
           kernel-branch: ksu
           config: viva_defconfig
           arch: arm64
+          ksu: true
           ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU/
+          rekernel: true
           aosp-gcc: true
           aosp-clang: true
           android-version: 11
