@@ -20,6 +20,7 @@ jobs:
           kernel-branch: ksu
           config: viva_defconfig
           arch: arm64
+          ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU/
           aosp-gcc: true
           aosp-clang: true
