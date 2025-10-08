@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: dabao1955/kernel_build_action@main
+        uses: udumb4r4/kernel_build_action@main
         with:
           kernel-url: https://github.com/udumb4r4/Xiaomi_Kernel_OpenSource.git
           kernel-dir: Xiaomi_Kernel_OpenSource
@@ -23,7 +23,7 @@ jobs:
           ksu: true
           ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU/
-          ksu-version: v1.0.5-25-legacy
+          ksu-version: main
           rekernel: false
           aosp-gcc: true
           aosp-clang: true
