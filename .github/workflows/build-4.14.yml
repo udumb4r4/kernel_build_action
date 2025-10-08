@@ -23,7 +23,8 @@ jobs:
           ksu: true
           ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU/
-          rekernel: true
+          ksu-version: v1.0.5-25-legacy
+          rekernel: false
           aosp-gcc: true
           aosp-clang: true
           android-version: 11
